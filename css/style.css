@@ -17,29 +17,20 @@ body{
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    
-    
-
-    
-      
+     
 }
 .footer-main-content__contact{
     width: 135px;
     height: 60px;
-    text-align: center;
-   
+    text-align: center;   
     margin-left: auto;
     margin-right: auto;
-   
-   
+  
 }
 .hr-one{
     border: 1px solid #ffffff;
     margin: 0px;
-    width:100%;
-    
-   
-    
+    width:100%;  
 }
 .footer-main-content__contact h1{
     font-size: 12px;
