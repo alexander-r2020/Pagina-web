@@ -1,3 +1,38 @@
-.header-main img{
-    width: 4rem;
+/*Esta parte responsive del header 320px de ancho ya esta*/
+
+
+.header-main{
+    background-color: #201F1F;
+    width: 100%;
+    height: 50px ;
 }
+.header-main-content{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    /*border: 1px solid white;*/
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-main-content__logo{
+    width: 124px;
+    height: 30px;
+    
+}
+.header-main-content__logo a{
+    
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.header-main-content__logo a h1{
+    font-size: 12px;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    margin-left: 7px;
+}
+/********************************************************/
