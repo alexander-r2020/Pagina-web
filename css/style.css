@@ -8,10 +8,11 @@
 }
 .header-main-content{
     width: 95%;
+    height: 50px;
     margin-left: auto;
     margin-right: auto;
     /*border: 1px solid white;*/
-    height: 50px;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,3 +37,51 @@
     margin-left: 7px;
 }
 /********************************************************/
+
+.photo-desktop{
+    width: 100%;
+    height: 216px;
+    background: linear-gradient(180deg, #353535 0%, rgba(4, 4, 4, 0) 100%), url(/img/escritorio.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.photo-desktop__title h1{
+    font-size: 20px;
+    margin: 0px;
+    color: white;
+}
+.photo-desktop__title p{
+    font-size: 14px;
+    margin: 0px;
+    color: white;
+}
+
+/*************************************************************************************************************/
+
+.about{
+    width: 100%;
+}
+.about-us{
+    width: 288px;
+    height: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    flex-direction: column;
+}
+.about-us h1{
+    margin: 0px;
+    font-size: 18px;
+}
+.about-us p{
+    margin: 0px;
+    font-size: 11px;
+}
+/******************************************************/
