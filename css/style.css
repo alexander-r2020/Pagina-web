@@ -1,3 +1,19 @@
-.header-main img{
-    width: 4rem;
+.seccion-img{
+    width: 100%;
+}
+.seccion-img__cards{
+    width: 288px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+.seccion-img__cards h2{
+    margin: 0px;
+    font-size: 12px;
+}
+.seccion-img__cards p{
+    margin: 0px;
+    font-size: 12px;
 }
