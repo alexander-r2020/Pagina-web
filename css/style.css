@@ -337,11 +337,11 @@ body{
 }
 .footer-main-content__follow{
     width: 324px;
-    height: 150px;
+    height: 152px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    border: 1px solid red;
+    
    
 }
 .footer-main-content__follow h1{
@@ -349,15 +349,21 @@ body{
     color: white;
     margin:0px;
     margin-bottom: 5px;
-    border: 1px solid red;
+    
 }
 .footer-main-content__follow-icon{
     width: 310px;
-    height: 72px;
+    height: 70px;
     display: flex;
+    margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
-     justify-content: space-around;
+    justify-content: space-around;
+
+}
+.footer-main-content__follow-icon img{
+    width: 72px;
+    height: 72px;
 }
 
 }
