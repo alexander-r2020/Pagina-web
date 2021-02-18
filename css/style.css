@@ -73,8 +73,8 @@ body{
     margin-right: auto;
     display: flex;
     justify-content: space-around;
-    text-align: center;
     flex-direction: column;
+    text-align: center;
 }
 .about-us h1{
     margin: 0px;
@@ -116,11 +116,7 @@ body{
 .footer-main-content{
     width: 95%;
     height: 172px;
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    justify-content: center;
-    justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
      
@@ -167,7 +163,7 @@ body{
     display: flex;
     margin-left: auto;
     margin-right: auto;
-     justify-content: space-around;
+    justify-content: space-around;
 }
 /***********************************************/
 /************ MEDIA QUERI **********************/
@@ -370,4 +366,183 @@ body{
 
 @media screen and (min-width: 1024px){
     
+    .header-main{
+        background-color: #201F1F;
+        width: 100%;
+        height: 120px ;
+    }
+    .header-main-content{
+        width: 95%;
+        height: 120px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-main-content__logo{
+        width: 295px;
+        height: 72px;
+        
+    }
+    .header-main-content__logo a{
+        
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    
+    }
+    .header-main-content__logo a h1{
+        font-size: 24px;
+        font-family: 'Fira Sans', sans-serif;
+        color: white;
+        margin-left: 7px;
+    }
+    .header-main-content__menu img{
+        width: 72px;
+        height: 72px;
+    }
+    .photo-desktop{
+        width: 100%;
+        height: 774px;
+        background: linear-gradient(180deg, #353535 0%, rgba(4, 4, 4, 0) 100%), url(/img/escritorio.jpg);
+        background-position: center;
+        background-size: cover;
+        margin: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .photo-desktop__title h1{
+        font-size: 64px;
+        margin: 0px;
+        color: white;
+    }
+    .photo-desktop__title p{
+        font-size: 48px;
+        margin: 0px;
+        color: white;
+    }
+    .about{
+        width: 100%;
+    }
+    .about-us{
+        width: 1015px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        flex-direction: column;
+    }
+    .about-us h1{
+        margin: 0px;
+        font-size: 64px;
+    }
+    .about-us p{
+        margin: 0px;
+        font-size: 36px;
+    }
+    /*********************************************************/
+
+.seccion-img{
+    width: 100%;
+    margin-top: 30px;
+
+}
+.seccion-img__cards{
+    width: 95%;
+    height: 314px;
+    display: flex;
+    justify-content: space-around;   
+}
+.seccion-img__cards-card1{
+    width: 314px;
+    height: 280px;    
+}
+.comentarios1{   
+    width: 630px;
+    height: 244px;
+}
+.seccion-img__cards-card2{
+    width: 320px;
+    height: 330px;  
+}
+.comentarios2{   
+    width: 630px;
+    height: 244px;
+}
+.seccion-img__cards-card3{
+    width: 330px;
+    height: 232px;
+}
+.comentarios3{  
+    width: 630px;
+    height: 244px;
+}
+.seccion-img__cards h2{
+    margin: 0px;
+    font-size: 48px;
+}
+.seccion-img__cards p{
+    margin: 0px;
+    font-size: 36px;
+}
+/*****************FOOTER******************************/
+.footer-main{
+    background-color: #222121;
+    width: 100%;
+    height: 320px;  
+}
+.footer-main-content{
+    width: 95%;
+    height: 320px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.footer-main-content__contact{
+    width: 324px;
+    height: 154px;
+    text-align: center;
+    margin:0px;      
+}
+.hr-one{
+    display: none;
+}
+.footer-main-content__contact h1{
+    font-size: 48px;
+    color: white;
+}
+.footer-main-content__contact p{
+    font-size: 22px;
+    color: white;
+    margin: 0px;
+}
+
+.footer-main-content__follow{
+    width: 324px;
+    height: 152px;
+    text-align: center;
+    margin:0px;       
+}
+.footer-main-content__follow h1{
+    font-size: 45px;
+    color: white;
+    margin:0px;  
+}
+.footer-main-content__follow-icon{
+    width: 310px;
+    height: 70px;
+}
+.footer-main-content__follow-icon img{
+    width: 72px;
+    height: 72px;
+}
+
+
+
 }
